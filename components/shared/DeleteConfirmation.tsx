@@ -44,7 +44,8 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
               startTransition(async () => {
                 await deleteEvent({ eventId, path: pathname })
               })
-            }>
+            }
+          >
             {isPending ? 'Deleting...' : 'Delete'}
           </AlertDialogAction>
         </AlertDialogFooter>

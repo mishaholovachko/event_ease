@@ -1,50 +1,8 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/zgGhzuBZOQg" target="_blank">
-      <img src="https://github.com/adrianhajdin/event_platform/assets/151519281/548975af-f0ed-4103-8834-fe93cf91862e" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
-  </div>
-
-  <h3 align="center">A Full Stack Next 14 Events App</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
-
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
-
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/zgGhzuBZOQg" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">Introduction</a>
 
 Built on Next.js 14, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">Tech Stack</a>
 
 - Node.js
 - Next.js
@@ -56,33 +14,34 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Shadcn
 - uploadthing
 
-## <a name="features">🔋 Features</a>
+## <a name="features">Features</a>
 
-👉 **Authentication (CRUD) with Clerk:** User management through Clerk, ensuring secure and efficient authentication.
+**Authentication (CRUD) with Clerk:** User management through Clerk, ensuring secure and efficient authentication.
 
-👉 **Events (CRUD):** Comprehensive functionality for creating, reading, updating, and deleting events, giving users full control over event management.
+ **Events (CRUD):** Comprehensive functionality for creating, reading, updating, and deleting events, giving users full control over event management.
+
 - **Create Events:** Users can effortlessly generate new events, providing essential details such as title, date, location, and any additional information.
 - **Read Events:** Seamless access to a detailed view of all events, allowing users to explore event specifics, including descriptions, schedules, and related information.
 - **Update Events:** Empowering users to modify event details dynamically, ensuring that event information remains accurate and up-to-date.
 - **Delete Events:** A straightforward process for removing events from the system, giving administrators the ability to manage and curate the platform effectively.
-        
-👉 **Related Events:** Smartly connects events that are related and displaying on the event details page, making it more engaging for users
-    
-👉 **Organized Events:** Efficient organization of events, ensuring a structured and user-friendly display for the audience, i.e., showing events created by the user on the user profile
-    
-👉 **Search & Filter:** Empowering users with a robust search and filter system, enabling them to easily find the events that match their preferences.
-    
-👉 **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
-    
-👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.
-    
-👉 **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
-    
-👉 **Search Orders:** Quick and efficient search functionality for orders, facilitating easy tracking and management.
 
-and many more, including code architecture and reusability 
+ **Related Events:** Smartly connects events that are related and displaying on the event details page, making it more engaging for users
 
-## <a name="quick-start">🤸 Quick Start</a>
+ **Organized Events:** Efficient organization of events, ensuring a structured and user-friendly display for the audience, i.e., showing events created by the user on the user profile
+
+ **Search & Filter:** Empowering users with a robust search and filter system, enabling them to easily find the events that match their preferences.
+
+ **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
+
+ **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.
+
+ **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
+
+ **Search Orders:** Quick and efficient search functionality for orders, facilitating easy tracking and management.
+
+and many more, including code architecture and reusability
+
+## <a name="quick-start">Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -140,7 +99,7 @@ STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 ```
 
-Replace the placeholder values with your actual credentials 
+Replace the placeholder values with your actual credentials
 
 **Running the Project**
 
@@ -150,7 +109,7 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">Snippets</a>
 
 <details>
 <summary><code>globals.css</code></summary>
@@ -232,12 +191,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 }
 
 body {
-  font-family: var(--font-poppins)
+  font-family: var(--font-poppins);
 }
 
 .filter-grey {
-  filter: brightness(0) saturate(100%) invert(47%) sepia(0%) saturate(217%)
-    hue-rotate(32deg) brightness(98%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(47%) sepia(0%) saturate(217%) hue-rotate(32deg)
+    brightness(98%) contrast(92%);
 }
 
 /* ========================================== TAILWIND STYLES */
@@ -408,7 +367,7 @@ body {
 .cl-formButtonPrimary:hover,
 .cl-formButtonPrimary:focus,
 .cl-formButtonPrimary:active {
-  background-color: #705CF7
+  background-color: #705cf7;
 }
 
 /* ========================================== REACT-DATEPICKER STYLES */
@@ -433,6 +392,7 @@ body {
   background-color: #624cf5 !important;
 }
 ```
+
 </details>
 
 <details>
@@ -440,7 +400,7 @@ body {
 
 ```typescript
 /** @type {import('tailwindcss').Config} */
-import { withUt } from 'uploadthing/tw';
+import { withUt } from 'uploadthing/tw'
 
 module.exports = withUt({
   darkMode: ['class'],
@@ -536,7 +496,7 @@ module.exports = withUt({
     },
   },
   plugins: [require('tailwindcss-animate')],
-});
+})
 ```
 
 </details>
@@ -551,58 +511,57 @@ import { WebhookEvent } from '@clerk/nextjs/server'
 import { createUser, deleteUser, updateUser } from '@/lib/actions/user.actions'
 import { clerkClient } from '@clerk/nextjs'
 import { NextResponse } from 'next/server'
- 
+
 export async function POST(req: Request) {
- 
   // You can find this in the Clerk Dashboard -> Webhooks -> choose the webhook
   const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET
- 
+
   if (!WEBHOOK_SECRET) {
     throw new Error('Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local')
   }
- 
+
   // Get the headers
-  const headerPayload = headers();
-  const svix_id = headerPayload.get("svix-id");
-  const svix_timestamp = headerPayload.get("svix-timestamp");
-  const svix_signature = headerPayload.get("svix-signature");
- 
+  const headerPayload = headers()
+  const svix_id = headerPayload.get('svix-id')
+  const svix_timestamp = headerPayload.get('svix-timestamp')
+  const svix_signature = headerPayload.get('svix-signature')
+
   // If there are no headers, error out
   if (!svix_id || !svix_timestamp || !svix_signature) {
     return new Response('Error occured -- no svix headers', {
-      status: 400
+      status: 400,
     })
   }
- 
+
   // Get the body
   const payload = await req.json()
-  const body = JSON.stringify(payload);
- 
+  const body = JSON.stringify(payload)
+
   // Create a new Svix instance with your secret.
-  const wh = new Webhook(WEBHOOK_SECRET);
- 
+  const wh = new Webhook(WEBHOOK_SECRET)
+
   let evt: WebhookEvent
- 
+
   // Verify the payload with the headers
   try {
     evt = wh.verify(body, {
-      "svix-id": svix_id,
-      "svix-timestamp": svix_timestamp,
-      "svix-signature": svix_signature,
+      'svix-id': svix_id,
+      'svix-timestamp': svix_timestamp,
+      'svix-signature': svix_signature,
     }) as WebhookEvent
   } catch (err) {
-    console.error('Error verifying webhook:', err);
+    console.error('Error verifying webhook:', err)
     return new Response('Error occured', {
-      status: 400
+      status: 400,
     })
   }
- 
+
   // Get the ID and type
-  const { id } = evt.data;
-  const eventType = evt.type;
- 
-  if(eventType === 'user.created') {
-    const { id, email_addresses, image_url, first_name, last_name, username } = evt.data;
+  const { id } = evt.data
+  const eventType = evt.type
+
+  if (eventType === 'user.created') {
+    const { id, email_addresses, image_url, first_name, last_name, username } = evt.data
 
     const user = {
       clerkId: id,
@@ -613,13 +572,13 @@ export async function POST(req: Request) {
       photo: image_url,
     }
 
-    const newUser = await createUser(user);
+    const newUser = await createUser(user)
 
-    if(newUser) {
+    if (newUser) {
       await clerkClient.users.updateUserMetadata(id, {
         publicMetadata: {
-          userId: newUser._id
-        }
+          userId: newUser._id,
+        },
       })
     }
 
@@ -627,7 +586,7 @@ export async function POST(req: Request) {
   }
 
   if (eventType === 'user.updated') {
-    const {id, image_url, first_name, last_name, username } = evt.data
+    const { id, image_url, first_name, last_name, username } = evt.data
 
     const user = {
       firstName: first_name,
@@ -648,10 +607,11 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ message: 'OK', user: deletedUser })
   }
- 
+
   return new Response('', { status: 200 })
 }
 ```
+
 </details>
 
 <details>
@@ -723,7 +683,7 @@ export async function deleteUser(clerkId: string) {
       // Update the 'events' collection to remove references to the user
       Event.updateMany(
         { _id: { $in: userToDelete.events } },
-        { $pull: { organizer: userToDelete._id } }
+        { $pull: { organizer: userToDelete._id } },
       ),
 
       // Update the 'orders' collection to remove references to the user
@@ -740,6 +700,7 @@ export async function deleteUser(clerkId: string) {
   }
 }
 ```
+
 </details>
 
 <details>
@@ -749,56 +710,57 @@ export async function deleteUser(clerkId: string) {
 import { Schema, model, models, Document } from 'mongoose'
 
 export interface IOrder extends Document {
-  createdAt: Date
-  stripeId: string
-  totalAmount: string
-  event: {
-    _id: string
-    title: string
-  }
-  buyer: {
-    _id: string
-    firstName: string
-    lastName: string
-  }
+createdAt: Date
+stripeId: string
+totalAmount: string
+event: {
+\_id: string
+title: string
+}
+buyer: {
+\_id: string
+firstName: string
+lastName: string
+}
 }
 
 export type IOrderItem = {
-  _id: string
-  totalAmount: string
-  createdAt: Date
-  eventTitle: string
-  eventId: string
-  buyer: string
+\_id: string
+totalAmount: string
+createdAt: Date
+eventTitle: string
+eventId: string
+buyer: string
 }
 
 const OrderSchema = new Schema({
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-  stripeId: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  totalAmount: {
-    type: String,
-  },
-  event: {
-    type: Schema.Types.ObjectId,
-    ref: 'Event',
-  },
-  buyer: {
-    type: Schema.Types.ObjectId,
-    ref: 'User',
-  },
+createdAt: {
+type: Date,
+default: Date.now,
+},
+stripeId: {
+type: String,
+required: true,
+unique: true,
+},
+totalAmount: {
+type: String,
+},
+event: {
+type: Schema.Types.ObjectId,
+ref: 'Event',
+},
+buyer: {
+type: Schema.Types.ObjectId,
+ref: 'User',
+},
 })
 
 const Order = models.Order || model('Order', OrderSchema)
 
 export default Order
-```
+
+````
 
 </details>
 
@@ -862,7 +824,7 @@ export function FileUploader({ imageUrl, onFieldChange, setFiles }: FileUploader
     </div>
   )
 }
-```
+````
 
 </details>
 
@@ -1006,7 +968,7 @@ export async function updateEvent({ userId, event, path }: UpdateEventParams) {
     const updatedEvent = await Event.findByIdAndUpdate(
       event._id,
       { ...event, category: event.categoryId },
-      { new: true }
+      { new: true },
     )
     revalidatePath(path)
 
@@ -1113,22 +1075,27 @@ export async function getRelatedEventsByCategory({
 <summary><code>order.action.ts</code></summary>
 
 ```typescript
-"use server"
+'use server'
 
-import Stripe from 'stripe';
-import { CheckoutOrderParams, CreateOrderParams, GetOrdersByEventParams, GetOrdersByUserParams } from "@/types"
-import { redirect } from 'next/navigation';
-import { handleError } from '../utils';
-import { connectToDatabase } from '../database';
-import Order from '../database/models/order.model';
-import Event from '../database/models/event.model';
-import {ObjectId} from 'mongodb';
-import User from '../database/models/user.model';
+import Stripe from 'stripe'
+import {
+  CheckoutOrderParams,
+  CreateOrderParams,
+  GetOrdersByEventParams,
+  GetOrdersByUserParams,
+} from '@/types'
+import { redirect } from 'next/navigation'
+import { handleError } from '../utils'
+import { connectToDatabase } from '../database'
+import Order from '../database/models/order.model'
+import Event from '../database/models/event.model'
+import { ObjectId } from 'mongodb'
+import User from '../database/models/user.model'
 
 export const checkoutOrder = async (order: CheckoutOrderParams) => {
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
 
-  const price = order.isFree ? 0 : Number(order.price) * 100;
+  const price = order.isFree ? 0 : Number(order.price) * 100
 
   try {
     const session = await stripe.checkout.sessions.create({
@@ -1138,10 +1105,10 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
             currency: 'usd',
             unit_amount: price,
             product_data: {
-              name: order.eventTitle
-            }
+              name: order.eventTitle,
+            },
           },
-          quantity: 1
+          quantity: 1,
         },
       ],
       metadata: {
@@ -1151,27 +1118,27 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
       mode: 'payment',
       success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/profile`,
       cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/`,
-    });
+    })
 
     redirect(session.url!)
   } catch (error) {
-    throw error;
+    throw error
   }
 }
 
 export const createOrder = async (order: CreateOrderParams) => {
   try {
-    await connectToDatabase();
-    
+    await connectToDatabase()
+
     const newOrder = await Order.create({
       ...order,
       event: order.eventId,
       buyer: order.buyerId,
-    });
+    })
 
-    return JSON.parse(JSON.stringify(newOrder));
+    return JSON.parse(JSON.stringify(newOrder))
   } catch (error) {
-    handleError(error);
+    handleError(error)
   }
 }
 
@@ -1341,30 +1308,5 @@ export default Orders
 ```
 
 </details>
-
-## <a name="links">🔗 Links</a>
-
-All assets used in the project can be found [here](https://drive.google.com/file/d/1hoRwUtTFIiuOXPw-SDYj6wk4hZTMcYmL/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
 
 #

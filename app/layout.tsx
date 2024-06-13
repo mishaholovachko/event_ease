@@ -14,15 +14,11 @@ export const metadata: Metadata = {
   title: 'EventEasy',
   description: 'EventEasy is a platform for event management.',
   icons: {
-    icon: '/assets/images/logo.svg'
-  }
+    icon: '/assets/images/logo.svg',
+  },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ClerkProvider>
       <html lang="en">
